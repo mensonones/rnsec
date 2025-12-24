@@ -58,6 +58,14 @@ That's it. No configuration needed.
 rnsec scan
 ```
 
+**HTML Report:**
+
+
+
+<img width="1058" height="787" alt="Screenshot 2025-12-25 at 00 56 44" src="https://github.com/user-attachments/assets/6d265338-30a1-4008-a5d3-1061ee25bd1f" />
+
+
+
 **Scan specific project:**
 ```bash
 rnsec scan --path ./my-app
