@@ -7,7 +7,7 @@
     "rnsec": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp src/core/template.html dist/core/template.html",
     "dev": "ts-node src/index.ts",
     "prepublishOnly": "npm run build",
     "test": "echo \"Tests coming soon\" && exit 0",
@@ -49,7 +49,6 @@
   },
   "files": [
     "dist",
-    "src/core/template.html",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"
