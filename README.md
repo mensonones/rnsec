@@ -202,8 +202,12 @@ Create `.github/workflows/security.yml`:
 
 ```yaml
 name: Security Scan
-on: [push, pull_request]
-
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+    
 jobs:
   security:
     runs-on: ubuntu-latest
